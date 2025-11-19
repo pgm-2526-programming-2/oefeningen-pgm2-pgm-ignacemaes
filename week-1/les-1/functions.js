@@ -60,7 +60,7 @@ function division(a, b) {
   return a / b;
 }
 
-function showCalculation(number1, number2, calculation) {
+function showCalculation(number1 = 0, number2 = 0, calculation = sum) {
   console.log(calculation(number1, number2));
 }
 
@@ -68,3 +68,5 @@ showCalculation(6, 2, sum);
 showCalculation(6, 2, minus);
 showCalculation(6, 2, multiply);
 showCalculation(6, 2, division);
+showCalculation(6, 2);
+showCalculation();
