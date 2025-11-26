@@ -10,13 +10,13 @@ function generateDropdownHTML(dropdownObject) {
       if (Array.isArray(dropdownObject[key])) {
         for (const element of dropdownObject[key]) {
           if (typeof element === "string") {
-            htmlDropdownMenu += `<li>${element}</li>`;
+            htmlDropdownMenu += `<li class="item">${element}</li>`;
           } else {
             generateDropdownHTML(element);
           }
         }
       } else {
-        htmlDropdownMenu += `<li>${dropdownObject[key]}</li>`;
+        htmlDropdownMenu += `<li class="label">${dropdownObject[key]}</li>`;
       }
     }
   }

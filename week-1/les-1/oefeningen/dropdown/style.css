@@ -3,6 +3,10 @@ ul {
   padding: 0;
 }
 
-li {
+li.label {
   margin-left: 20px;
+}
+
+li.item {
+  margin-left: 40px;
 }
