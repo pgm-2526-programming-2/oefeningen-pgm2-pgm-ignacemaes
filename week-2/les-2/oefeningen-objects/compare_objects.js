@@ -10,4 +10,4 @@ function zijnObjectenIdentiek(obj1, obj2) {
   return false;
 }
 
-console.log(zijnObjectenIdentiek(objectA, objectB)); // true
+console.log(zijnObjectenIdentiek(objectA, objectB));
