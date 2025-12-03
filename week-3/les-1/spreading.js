@@ -22,7 +22,7 @@ const snacks = ["frikandel", "chips", "kaasblokjes"];
 const menu = [...apero, ...snacks];
 console.log(menu);
 
-// 3. Dit werkt allemaal met objecten
+// Dit werkt allemaal met objecten
 const car = {
   brand: "Citroen",
   model: "C8",
@@ -42,5 +42,8 @@ const a = "Hello";
 const test = {
   a,
 };
-
 console.log(test); // { a: 'Hello'} want a is binnen test als de variable a boven ons object
+
+// 3. Wanneer een methode geen arrays aanvaardt
+const max = Math.max(...numbers);
+console.log(max);
