@@ -18,5 +18,4 @@ function greetUser(ip = "") {
     });
 }
 
-greetUser("9.9.9.9"); // Welcome in the US
-greetUser("178.51.111.192"); // Welcome in the US
+greetUser("77.1.2.3"); // Welcome in the US
