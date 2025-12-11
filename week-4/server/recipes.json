@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Lasagne op luie wijze",
+    "ingredients": ["Lasagne vellen", "gehakt", "tomaten saus", "kaas", "peper", "zout"]
+  },
+  {
+    "id": 2,
+    "name": "Pizza - Burrata",
+    "ingredients": ["Pizza deeg", "Tomaten saus", "Bol burrata", "Mozarella", "Pistache noten"]
+  }
+]
